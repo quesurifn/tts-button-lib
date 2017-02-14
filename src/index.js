@@ -27,7 +27,7 @@
 
 
           var data = this.getTextFromNode(node, addSpaces);
-          var xhr = new XMLHttpRequest();
+          var xhr = new XMLHttpRequest({mozSystem: true});
           xhr.open('GET', 'https://stream.watsonplatform.net/text-to-speech/api/v1/synthesize?username=36a74140-1f05-44cd-89c8-c12ab76871c4&password=nmkclW4ZtBVJ&text='+ data)
           xhr.send(null);
 
