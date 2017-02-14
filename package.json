@@ -1,0 +1,11 @@
+{
+  "name": "tts-button-lib",
+  "version": "0.0.1",
+  "description": "A TTS Engine that will read articles to you",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kyle c r fahey",
+  "license": "ISC"
+}
